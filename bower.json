@@ -1,0 +1,25 @@
+{
+	"name": "Tydlyn",
+	"version": "0.0.1",
+	"authors": [
+		"Habib MAALEM <habib.maalem@gmail.com>"
+	],
+	"license": "MIT",
+	"directory": "client/javascripts/vendors",
+	"ignore": [
+		"**/.*",
+		"*.md",
+		"bower.json",
+		"docs",
+		"editor",
+		"examples",
+		"src",
+		"test",
+		"utils",
+		"LICENSE"
+	],
+	"dependencies": {
+		"angular": "latest",
+		"bootstrap": "latest"
+	}
+}

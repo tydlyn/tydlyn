@@ -1,0 +1,64 @@
+{
+	"name": "Tydlyn",
+	"version": "0.0.1",
+	"description": "",
+	"author": "Habib MAALEM <habib.maalem@gmail.com>",
+	"homepage"    : "http://tydlyn.com",
+	"repository" : {
+		"type": "git",
+		"url": "git://github.com/tydlyn/tydlyn.git"
+	},
+	"licenses" : [
+		{
+			"type": "MIT",
+			"url": "https://raw.github.com/tydlyn/tydlyn/master/LICENSE"
+		}
+	],
+	"main": "server/server.js",
+	"engines": {
+		"node": "0.10.x",
+		"npm": "1.2.x"
+	},
+	"engineStrict": true,
+	"dependencies": {
+		"bcrypt": "latest",
+		"body-parser": "latest",
+		"connect": "latest",
+		"connect-ensure-login": "latest",
+		"connect-flash": "latest",
+		"cookie-parser": "latest",
+		"debug": "latest",
+		"ejs": "latest",
+		"ejs-locals": "latest",
+		"express": "latest",
+		"less-middleware": "latest",
+		"load-grunt-tasks": "latest",
+		"lodash": "latest",
+		"mongoose": "latest",
+		"mongoose-validator": "latest",
+		"nodemailer": "latest",
+		"oauth2orize": "latest",
+		"passport": "latest",
+		"passport-local": "latest",
+		"passport-http": "latest",
+		"passport-http-bearer": "latest",
+		"passport-oauth2-client-password": "latest",
+		"socket.io": "latest",
+		"static-favicon": "latest"
+	},
+	"devDependencies": {
+		"grunt": "latest",
+		"grunt-bower-task": "latest",
+		"grunt-concurrent": "latest",
+		"grunt-contrib-concat": "latest",
+		"grunt-contrib-copy": "latest",
+		"grunt-contrib-jshint": "latest",
+		"grunt-contrib-less": "latest",
+		"grunt-contrib-uglify": "latest",
+		"grunt-contrib-watch": "latest",
+		"grunt-nodemon": "latest",
+		"grunt-open": "latest",
+		"morgan": "latest",
+		"time-grunt": "latest"
+	}
+}
