@@ -16,3 +16,12 @@ logs
 results
 
 npm-debug.log
+
+!server/public/fonts
+server/public/fonts/*
+!server/public/images
+server/public/images/*
+!server/public/javascripts
+server/public/javascripts/*
+!server/public/stylesheets
+server/public/stylesheets/*

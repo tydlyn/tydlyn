@@ -1,9 +1,9 @@
 {
-	"name": "Tydlyn",
+	"name": "tydlyn",
 	"version": "0.0.1",
 	"description": "",
 	"author": "Habib MAALEM <habib.maalem@gmail.com>",
-	"homepage"    : "http://tydlyn.com",
+	"homepage"    : "http://www.tydlyn.com",
 	"repository" : {
 		"type": "git",
 		"url": "git://github.com/tydlyn/tydlyn.git"
@@ -14,7 +14,11 @@
 			"url": "https://raw.github.com/tydlyn/tydlyn/master/LICENSE"
 		}
 	],
-	"main": "server/server.js",
+	"main": "./server/server",
+	"scripts": {
+		"test": "grunt validate --verbose",
+		"start": "node server/server.js"
+	},
 	"engines": {
 		"node": "0.10.x",
 		"npm": "1.2.x"
@@ -27,13 +31,12 @@
 		"connect-ensure-login": "latest",
 		"connect-flash": "latest",
 		"cookie-parser": "latest",
-		"debug": "latest",
 		"ejs": "latest",
 		"ejs-locals": "latest",
 		"express": "latest",
 		"less-middleware": "latest",
-		"load-grunt-tasks": "latest",
 		"lodash": "latest",
+		"moment": "latest",
 		"mongoose": "latest",
 		"mongoose-validator": "latest",
 		"nodemailer": "latest",
@@ -47,6 +50,8 @@
 		"static-favicon": "latest"
 	},
 	"devDependencies": {
+		"bower": "latest",
+		"debug": "latest",
 		"grunt": "latest",
 		"grunt-bower-task": "latest",
 		"grunt-concurrent": "latest",
@@ -56,9 +61,15 @@
 		"grunt-contrib-less": "latest",
 		"grunt-contrib-uglify": "latest",
 		"grunt-contrib-watch": "latest",
+		"grunt-html2js": "latest",
 		"grunt-nodemon": "latest",
 		"grunt-open": "latest",
+		"load-grunt-tasks": "latest",
+		"mocha": "latest",
 		"morgan": "latest",
-		"time-grunt": "latest"
+		"require-dir": "latest",
+		"supertest": "latest",
+		"time-grunt": "latest",
+		"zombie": "latest"
 	}
 }

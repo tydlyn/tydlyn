@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="tydlyn" class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title><%= title %></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<%-stylesheets%>
+</head>
+<body ng-controller="AppCtrl">
+	<%- partial('../includes/header') %>
+	<div class="container">
+		<div class="page">
+			<div ng-view class="main-col">
+				<%- partial('../includes/messages') %>
+				<h1>Welcome</h1>
+				<%- body %>
+			</div>
+			<div class="sidebar sidebar-colored sidebar-shadow js-sidebar js-sidebar-fullheight">
+				<aside class="sidebar-item">
+
+				</aside>
+			</div>
+		</div>
+	</div>
+	<%-scripts%>
+</body>
+</html>

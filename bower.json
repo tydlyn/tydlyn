@@ -20,6 +20,14 @@
 	],
 	"dependencies": {
 		"angular": "latest",
-		"bootstrap": "latest"
+		"angular-animate": "latest",
+		"angular-cookies": "latest",
+		"angular-i18n": "latest",
+		"angular-loader": "latest",
+		"angular-resource": "latest",
+		"angular-route": "latest",
+		"angular-sanitize": "latest",
+		"bootstrap": "latest",
+		"font-awesome": "latest"
 	}
 }
