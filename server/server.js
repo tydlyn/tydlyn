@@ -15,7 +15,7 @@ var privateKey = fs.readFileSync(__dirname + '/config/cert/privatekey.pem').toSt
 var certificate = fs.readFileSync(__dirname + '/config/cert/certificate.pem').toString();
 var credentials = {key: privateKey, cert: certificate};
 
-var routes = require('./routes/index');
+var routes = require('./routes');
 
 var app = express();
 var secureServer = https.createServer(credentials, app);
@@ -37,7 +37,8 @@ app.use(cookieParser());
 app.use('/static', express.static(__dirname + '/public'));
 
 // route setup
-app.use('/', routes);
+app.use(routes.api);
+app.use(routes.site);
 
 if (app.get('env') === 'development') {
 	app.use(function(err, req, res, next) {
