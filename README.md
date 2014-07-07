@@ -2,7 +2,7 @@
 ## Recruitment software to track job applicants
 Tydlyn is the easiest way to receive and manage job applications to your company. It is more efficient than email and simpler than any other recruitment software.
 
-<img align="right" height="140" src="https://avatars3.githubusercontent.com/u/6323478?s=140">
+<img height="140" src="https://avatars3.githubusercontent.com/u/6323478?s=140">
 
 ## Features List
 
